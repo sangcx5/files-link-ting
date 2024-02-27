@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+  --bs-body-font-size: 1.1rem;
+}
+
+.header-container > nav {
+  background-color: #fff !important;
+}
+
+.container > .bg-light.p-5.rounded {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  border-radius: 15px !important;
+  padding-top: 10px !important;
+}
+
+.container > header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.navButton > div {
+  border-radius: 10px;
+  margin-top: -23px;
+}
+
+.col-sm-12.mt-0 .table,
+.col-sm-12.mt-0 .table tbody,
+.col-sm-12.mt-0 .table tr {
+  display: block;
+}
+
+.col-sm-12.mt-0 .table tr img {
+  max-width: 100%;
+}
+
+#modalCreateNew .modal-dialog {
+  max-width: 1700px !important;
+}
+
+#nav-info tbody tr td {
+  word-break: break-all;
+}
+
+#nav-info .table-striped tbody tr td {
+  word-break: unset;
+}
+
+#nav-info .table-striped tbody tr td:nth-child(4) {
+  white-space: break-spaces !important;
+}
+
+thead tr th:nth-child(2),
+thead tr th:nth-child(3),
+thead tr th:nth-child(5),
+thead tr th:nth-child(10),
+thead tr th:nth-child(12) {
+  width: 50px;
+}
+
+#table-home tbody td {
+  text-align: center;
+}
+
+#table-home tbody tr td:nth-child(4) {
+  text-align: left;
+}
+
+.custom-table.h100 tr td:nth-last-child(1) {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+table.table-list th {
+  border-width: 0px;
+}
+
+.custom-table.h100 tr td:nth-last-child(1) a {
+  margin-left: 0 !important;
+}
+
+#nav-doc tr th:nth-child(1) {
+  width: 10px;
+}
+
+table:not(table.viewVulItem) {
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  border-color: transparent !important;
+}
+
+table.viewVulItem td,
+table.viewVulItem th {
+  border-bottom-width: 0;
+}
+
+#nav-info table {
+  box-shadow: unset;
+  border-radius: 0;
+  border-color: transparent !important;
+}
+
+#nav-info table th,
+#nav-info table td {
+  border-style: none;
+  border-bottom-style: solid;
+}
+
+#table-home {
+  margin-top: 15px;
+}
+
+#nav-tab {
+  background-color: #fff;
+}
+
+#nav-tab .nav-link.active {
+  background-color: #f8f9fa;
+  border-color: #dee2e6 #dee2e6 #f8f9fa;
+}
